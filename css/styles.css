@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+  background-color: #282C41;
+	  font-family: "Ubuntu", sans-serif;
+}
+/* Section styles */
+header {
+  background-color: #282C41;
+  padding: 25px;
+}
+.projects {
+  background-color: #fff;
+  padding: 35px;
+}
+.project {
+	background-size: cover;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: overlay;
+	margin: 12px;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px darkgray;
+	min-height: 100px;
+}
+.about {
+  background-color: #44475A;
+  padding: 35px;
+}
+.photo {
+  border-radius: 1000px;
+}
+/* Heading styles */
+h1 {
+  color: #efefef;
+  font-size: 2.3em;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  margin: 15px 0 5px 0;
+}
+h2 {
+  color: #999;
+  font-size: 1.15em;
+  font-weight: 700;
+  text-align: center;
+  margin: 5px 0 10px 0;
+}
+h3 {
+  font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 1px 1px #333333;
+}
+h3.projectheading {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #282C41;
+  text-shadow: 0 1px 1px #333333;
+}
+/* Project tile styles */
+/* Button styles */
+.btn-primary {
+  background-color: aliceblue;
+  border-radius: 6px;
+  color: #282C41;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/* Link styles */
+a {
+  color: #fff;
+}
